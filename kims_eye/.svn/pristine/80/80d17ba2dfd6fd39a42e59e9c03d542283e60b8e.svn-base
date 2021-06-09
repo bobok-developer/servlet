@@ -1,0 +1,6 @@
+@charset "utf-8";
+.introduce-area h3 {text-align: center;}
+.introduce-area p {width: 400px; line-height: 1.8em;}
+.introduce-area .p {float: left; margin-top: 20px;}
+.introduce-area img {float: right; width: 330px; margin-top: 20px;}
+.p .drname {text-align: right; font-size: 16px; font-weight: bold;}

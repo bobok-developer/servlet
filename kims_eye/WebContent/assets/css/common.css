@@ -1,0 +1,74 @@
+@charset "utf-8";
+@font-face { 
+    font-family: s-core;
+    src: url(../project_images/SCDream4.woff);
+}
+body > * {margin: 0 auto;}
+body {font-family: s-core; font-size: 14px; letter-spacing: 2px;}
+.middle-wrap {width: 978px; margin: 0 auto;}
+.lnb-wrap, .content {margin: 0 auto;}
+
+/* 상단 */
+div hr {border: 1px solid #aaa; clear: both;}
+.top-area {width: 978px; height: 50px; background-color: #003963;}
+.sitemap {float:left; padding: 0; margin-left: 10px; color: #fff;}
+.sitemap li {display: inline-block;}
+.sitemap li a{text-decoration: none; color: #fff;}
+.user-menu {float: right; margin-right: 10px; color: #fff;}
+.user-menu li {display: inline-block}
+.user-menu li a {text-decoration: none; color: #fff; text-align: center; margin-left: 20px;}
+.user-menu li a {text-decoration: none; color: #fff; text-align: center; margin-left: 20px;}
+.user-menu li a img {height: 20px; margin-right: 6px;}
+.user-menu button {margin-left: 16px; background: #003963; border-style: none; color: #fff; font-family: s-core; font-size: 14px; letter-spacing: 2px;}
+img {vertical-align: middle;}
+
+.header {width: 978px; height: 150px; background: #fff;}
+.logo {float: left; margin-left: 10px;}
+
+.gnb {float: right;}
+.gnb ul {margin-top: 40px; margin-right: 0;}
+.gnb li {display: inline-block; padding: 25px; font-size: 16px; letter-spacing: 1px;}
+.gnb li a {text-decoration: none; color: black;}
+.gnb li a:link, .gnb li a:visited {color: #000;} 
+.gnb li a:hover, .gnb li a:active, .gnb li a:focus {color: #0693f8}
+
+/* 하단 */
+footer {width: 978px; height: 120px; background-color: #003963;
+    clear: both;}
+footer img {width: 30px; height: 30px;}
+footer a {text-decoration: none; color: #fff;}
+footer .top {float: left; color: #fff; line-height: 2.7; font-size: 10px;
+    margin-left: 10px; margin-top: 12px;
+}
+footer .bottom {clear: both; float: left; color: #fff; font-size: 10px;
+    margin-left: 10px;}
+footer .right {float: right; margin-top: -80px; margin-right: 35px; color: #fff;
+    font-size: 12px; line-height: 1.3;
+}
+.right p {margin: 0; font-size: 14px;}
+
+/* 왼쪽메뉴 */
+.lnb-wrap {width: 170px; border: 1px solid fff; float: left; margin-right: 10px; float: left;}
+.lnb-wrap ul {list-style: none; padding: 0;}
+.lnb-wrap li {border-bottom: 1px solid #dcdcdc; height: 40px;}
+.lnb-wrap li a { display: block; padding: 10px; padding-left: 0px; text-decoration: none; color:#000;}
+.lnb-wrap a:link, .lnb-wrap a:visited {color: #000;}
+.lnb-wrap a:hover, .lnb-wrap a:active, .lnb-wrap a:focus {color: #0693f8}
+
+/* 페이지별 중앙 */
+.contents-area {width: 808px; float: left; margin-bottom: 80px;}
+.content {width: 750px; float: right; margin-bottom: 30px;}
+.location, .home span {float: right; font-size: 11px;
+    letter-spacing: 1px;
+}
+.location-login, .home span {float: right; margin-right: 26px; font-size: 11px;
+    letter-spacing: 1px;}
+.content h1 {margin-left: 15px;}
+/* 사이트맵 */
+.sitemap-list {width: 978px;}
+.sitemap-list a {text-decoration: none; color:#000;}
+.sitemap-list ul {list-style: none; padding: 0;}
+.sitemap-list fieldset {width: 160px; text-align: center; display: inline-block; border: #eee solid 1px;}
+/* font awsome */
+.fa-search {color:#0693f8}
+.fa-lock, .fa-images {color: #aaa; margin-left: 7px;}

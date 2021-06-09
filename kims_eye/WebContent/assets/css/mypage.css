@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* 로그인 */
+.location-login, .home span {float: right; font-size: 11px; letter-spacing: 1px;}
+.login-area {width: 750px; float: left;}
+.login-area img {border-right: 1px solid #aaa; padding-left: 27px; padding-right: 27px;
+   margin: 34px; margin-top: 70px; margin-right: 0; float: left;
+}
+.login-area .idpw {table-layout: fixed; border-collapse: collapse; float: left;
+   margin-top: 72px; margin-right: 21px;}
+.login-area .idpw th {text-align: right; width: 71px; padding: 14px;}
+.login-area .idpw input {width: 140px; height: 25px; margin-left: 30px;}
+.login-area .loginbtn {width: 116px; padding:20px; background-color: #003963; color: #fff;
+   border: none; border-radius: 10px; font-size: 19px; margin-top: 81px; cursor: pointer;}
+.login-area label {display: inline-block; margin-top: 30px;}
+.info-signin {width: 409px; height: 50px; float: right; margin-right: 20px;
+   margin-top: 20px; color: #555}
+.sign-btn {width: 76px; height: 30px; border-style: none; border-radius: 6px;
+   margin-left: 20px; background-color:#aaa; color: #fff; cursor: pointer;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;}
+/* step1 약관동의 */
+.agree1 {margin-left: 10px;}
+.agree2 {margin-left: 10px; margin-top: 50px;}
+.agree1 span, .agree2 span {border-left: 10px solid #003963; padding-left: 11px; font-size: 20px;
+    font-weight: bold;}
+.agree1-text, .agree2-text {width: 745px; height: 250px;
+    border:1px solid #dcdcdc;
+    overflow: auto; margin-top: 40px; margin-bottom: 20px;
+}
+.agree1-text p {line-height: 1.5;}
+label {margin-left: 10px;}
+
+.submit-btn-wrap {margin: 35px 0;}
+    /* .submit-btn {width: 500px; height: 40px; margin-left: 224px;} */
+    .btn1 {background-color: #aaa; border-radius: 10px;
+        width: 110px; height: 50px; color: #fff; font-size: 16px;
+        border: 1px solid #aaa; cursor: pointer;
+    }
+    .btn2 {background-color: #003963; border-radius: 10px;
+        width: 110px; height: 50px; color: #fff; font-size: 16px;
+        border: 1px solid #003963; cursor: pointer;
+    }
+   .submit-btn, .submit-btn-step2 {width: 230px; margin: 0 auto;}
+/* step2 회원가입 작성 */
+.signin-form {table-layout: fixed; width: 738px;}
+.signin-form th {width: 57px;}
+.signin-form th + td {width: 171px;}
+.signin-form th, .signin-form td {border-bottom: 1px solid #ddd; text-align: left; padding: 10px;}
+.signin-form td + td {font-size: 11px; color: #ff3333; width: 130px; text-align: left;}
+.signin-form td input {padding: 10px;}
+.signin-form .birth {font-size: 12px;}
+.signin-form .birth input{width: 123px; text-align: center;}
+.signin-form .tel input, .myinfo-area .tel input {width: 58px; text-align: center;}
+.signin-form .email input, .myinfo-area .email input {width: 263px;}
+.signin-form ul, .myinfo-area ul {list-style: none; margin: 0; padding: 0;}
+.signin-form ul li, .myinfo-area ul li {display: inline-block;}
+.signin-form input[type="button"] {border-style: none; border-radius: 5px;
+    margin-left: 10px; padding: 10px;}
+.tel label {margin: 0 auto;}
+select {width: 74px; height: 40px;}
+.regi-complete {text-align: center;}
+/* .step2 {margin-left: 50px;} */
+/* 아이디/비밀번호찾기 */
+   .find-area {width: 750px; float: left; margin-left: 0;}
+   .id {margin-bottom: 30px;}
+   .id h3, .pw h3 {margin-bottom: 40px;}
+   .id label, .pw label {margin-left: 30px;}
+   .id .li-email, .pw .li-email {margin-left: 140px;}
+   .id ul, .pw ul{list-style: none; margin: 0; padding: 0;}
+   .id ul li, .pw ul li {display: inline-block;}
+   .number, .cer-email {text-align: right; table-layout: fixed; border-collapse: collapse;
+       margin-top: 20px; margin-bottom: 36px;}
+   .number {float: left;}
+   .number th, .cer-email th {padding: 15px; width: 95px;}
+   .number td input, .cer-email td input {width: 171px; padding: 6px;}
+   .number .btn input, .cer-email .btn input {width: 91px; padding: 10px; margin-left: 20px;
+       margin-top: 15px; border-style: none;}
+       .number .btn input:hover, .cer-email .btn input:hover {background-color: #84cafc;}
+   .cer-email {float: right; margin-right: 26px;}
+   .find .pw {margin-top: 20px;} 
+   .pw {clear: both;}
+   /* 회원정보수정 */
+.myinfo-area {width: 750px; /* float: left; */}
+.myinfo-area table {table-layout: fixed; width: 425px; margin: 0 auto;}
+.myinfo-area th {width: 123px; padding: 25px; font-size: 14px; text-align: left;}
+.myinfo-area td {width: 312px;}
+.myinfo-area td .email {text-align: left;}
+.myinfo-area td input {width: 200px; padding: 10px;}
+.myinfo-area .birth input {width: 200px; text-align: center;}
+.myinfo-area .info-send input {width: 20px; margin-right: 20px;}
+.myinfo-area .info-send label {margin: 0; margin-right: 20px;}
+.tell select {text-align: center; padding: 10px;}
+.submit-btn-info {width: 227px; margin: 0 auto;}
+/* .info {margin: 0; margin-left: 85px;} */
+
+/* 회원탈퇴 */
+.withdrawal {background-color: #ddd; border-radius: 10px;
+    width: 110px; height: 50px; color: #fff; font-size: 16px;
+    border-style: none; cursor: pointer;}
+.login-area span {float: left; margin-top: 9px;}    

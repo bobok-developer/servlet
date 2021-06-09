@@ -1,0 +1,25 @@
+/* 진료예약 */
+.reserv-col1 {background-color: #efefef; width: 46px; font-size: 12px;}
+.reservation-form select {width: 140px; padding: 10px;}
+.reservation-form input {width: 201px; padding: 10px; text-overflow: ellipsis;}
+.reservation-form input[type="date"], .reservation-form input[type="time"] {padding: 10px; text-align: center; width: 133px;}
+.reservation-form input[type="radio"] {width: 40px;}
+.reservation-form label {margin: 0;}
+.reserv-ex {margin-bottom: 30px;}
+.reserv-ex span {color: #ff3333;}
+.reserv-ex .bold {text-decoration: underline;}
+.modify-btn .reserv {width: 97px; padding: 17px; border-style: none; border-radius: 10px;}
+.time:invalid {box-shadow: 0 0 5px #ff3333;}
+.time:invalid+span::after {
+    content: '올바른 시간을 입력하세요';
+    color: #ff3333;
+}
+/* 진료조회 */
+.date-area {width: 720px; margin: 0 auto; margin-bottom: 50px; text-align: center;}
+.date-btn {margin: 50px auto;}
+.check-ex {margin-left: 18px;}
+.check-ex span {color: #ff3333; font-weight: bold;}
+.date-btn input[type="button"] {border-style: none; width: 52px; padding: 9px;}
+.date-btn input[type="date"] {width: 120px; padding: 7px}
+.date-btn label {margin: 0;}
+.date-btn input[type="submit"] {width: 60px; margin-left: 6px; padding: 9px; border-style: none; }
